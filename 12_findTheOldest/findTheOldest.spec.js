@@ -21,7 +21,7 @@ describe('findTheOldest', () => {
     ]
     expect(findTheOldest(people).name).toBe('Ray');
   });
-  test.skip('finds the person with the greatest age if someone is still living', () => {
+  test('finds the person with the greatest age if someone is still living', () => {
     const people = [
       {
         name: "Carly",
@@ -40,11 +40,11 @@ describe('findTheOldest', () => {
     ]
     expect(findTheOldest(people).name).toBe('Ray');
   });
-  test.skip('finds the person with the greatest age if the OLDEST is still living', () => {
+  test('finds the person with the greatest age if the OLDEST is still living', () => {
     const people = [
       {
         name: "Carly",
-        yearOfBirth: 1066,
+        yearOfBirth: 1066
       },
       {
         name: "Ray",
